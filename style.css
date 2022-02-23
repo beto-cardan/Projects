@@ -135,10 +135,9 @@ header nav ul  li a.active
   @media(max-width: 400px){
     .cv{
     max-width: 300px;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
     }
 }
  
