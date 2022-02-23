@@ -135,10 +135,10 @@ header nav ul  li a.active
   @media(max-width: 500px){
     .cv{
     max-width: 300px;
-    margin: auto;
-    padding-top: 50px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.856);
-    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     }
 }
  
