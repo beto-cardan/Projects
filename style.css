@@ -4,7 +4,7 @@ body{
     font-family: sans-serif;
     background: url(Space_Design.jpg);
     background-size: 1200px;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
     
@@ -115,9 +115,10 @@ header nav ul  li a.active
 .main{
    max-width: 1000px;
    margin: auto;
+   padding-top: 5%;
 }
 .content {
-    padding: 2rem;
+    padding: 20px;
   }
   
 
