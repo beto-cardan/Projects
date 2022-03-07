@@ -65,34 +65,32 @@ header nav ul  li a.active
 
 .square{
     
-    position: absolute;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color:#ADDEEB(51, 51, 51, 0.514);
+    border-radius: 10%;   
+}
+.content {
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
     width: 350px;
     height: 350px;
-    background-color: rgba(51, 51, 51, 0.082);
-    border-radius: 10%;   
-}
-.content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    width: 350px;
-    height: 350px; 
-}
-.content
-{
     position: relative;
     padding: 40px 60 px;
     color: #fff;
     text-align: center;
     transition: 0.5s;
-    z-index: 1000;
+    z-index: 1000; 
 }
+
 .icon-bg{
     background-color: rgba(255, 255, 255, 0.061);
     border-radius: 5px;
@@ -165,10 +163,10 @@ a:hover, a:hover {
         border-bottom: 1px solid rgba(0,0,0,.2);
     }
     .square{
-        position: absolute;
+        position: fixed;
         z-index: -1;
-        width: 250px;
-        height: 250px;   
+        width: 400px;
+        height: 400px;   
     }
     
 }
@@ -182,7 +180,7 @@ a:hover, a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    border:  2px solid #fff;
+    border:  2px solid rgba(255, 255, 255, 0.623);
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0.5s;
     animation: animate 6s linear infinite;
@@ -191,7 +189,7 @@ a:hover, a:hover {
 .square:hover span:nth-child(1)
 {
     border: none;
-    background: rgba(0, 0, 255, 0.8);
+    background: #2195f338;
 }
 .square span:nth-child(2)
 {
@@ -200,7 +198,7 @@ a:hover, a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    border:  2px solid #fff;
+    border:  2px solid rgba(255, 255, 255, 0.657);
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0.5s;
     animation: animate 1os linear infinite;
@@ -209,7 +207,7 @@ a:hover, a:hover {
 .square:hover span:nth-child(2)
 {
     border: none;
-    background: rgba(0, 0, 255, 0.8);
+    background: #2195f357;
 }
 .square span:nth-child(3)
 {
@@ -218,7 +216,7 @@ a:hover, a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    border:  2px solid #fff;
+    border:  2px solid rgba(255, 255, 255, 0.561);
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 10s;
     animation: animate 4s linear infinite;
@@ -227,7 +225,8 @@ a:hover, a:hover {
 .square:hover span:nth-child(3)
 {
     border: none;
-    background: rgba(0, 0, 255, 0.8);
+    background: #2195f35e;
+    
 }
 @keyframes animate
 {
