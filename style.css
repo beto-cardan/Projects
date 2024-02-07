@@ -27,10 +27,12 @@ header .logo{
     font-weight: bold;
 
 }
-h1,h2{
+code{
     color: #ffffffcc;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
 header nav{
     float: right;
 }
